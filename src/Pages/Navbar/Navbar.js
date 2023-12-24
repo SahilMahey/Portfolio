@@ -9,23 +9,23 @@ const Navbar = (props) => {
     <nav className="nav slide-in-top">
     <div className="container">
         
-    <NavLink to="/" className="title">SM</NavLink>
+    <NavLink to="/" className="title" onClick={props.toggleMobileMenulink}>SM</NavLink>
         
         <ul className={`nav-list ${props.isMenuOpen ? 'open' : ''}`}>
         <li>
-		<NavLink to="/About" className="nav-links hover-effect">About</NavLink>
+		<NavLink to="About" className="nav-links hover-effect" onClick={props.toggleMobileMenulink}>About</NavLink>
 		</li>
 		<li>
-		    <NavLink to="Skills" className="nav-links hover-effect">Skills</NavLink>
+		    <NavLink to="Skills" className="nav-links hover-effect" onClick={props.toggleMobileMenulink}>Skills</NavLink>
 		</li>
 		<li>
-			<NavLink to="Projects" className="nav-links hover-effect">Projects</NavLink>
+			<NavLink to="Projects" className="nav-links hover-effect" onClick={props.toggleMobileMenulink}>Projects</NavLink>
 		</li>
         <li>
-		<NavLink to="/Experience" className="nav-links hover-effect">Experience</NavLink>
+		<NavLink to="Experience" className="nav-links hover-effect" onClick={props.toggleMobileMenulink}>Experience</NavLink>
 		</li>
 		<li>
-			<NavLink to="Contact" className="nav-links hover-effect">Contact</NavLink>
+			<NavLink to="Contact" className="nav-links hover-effect" onClick={props.toggleMobileMenulink}>Contact</NavLink>
 		</li>
         </ul>
         <ul className={`social-nav ${props.isMenuOpen ? 'open' : ''}`}>

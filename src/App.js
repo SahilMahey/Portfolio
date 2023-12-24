@@ -12,17 +12,22 @@ import Contact from './Pages/Contact/Contact'
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-    
+ 
   const toggleMobileMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-  };
+  };  
+  const toggleMobileMenulink = () => {
+    setIsMenuOpen(false)
+    };
+
+
   useEffect(() => {
     document.body.classList.toggle('open', isMenuOpen);
   }, [isMenuOpen]);
   return (
    <>
     <BrowserRouter>
-    <Navbar isMenuOpen = {isMenuOpen} toggleMobileMenu = {toggleMobileMenu}/>
+    <Navbar isMenuOpen = {isMenuOpen} toggleMobileMenu = {toggleMobileMenu} toggleMobileMenulink = {toggleMobileMenulink}/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="About" element={<About />} />
