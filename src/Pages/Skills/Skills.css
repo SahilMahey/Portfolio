@@ -1,0 +1,97 @@
+/* Updated Skills.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lora:ital,wght@0,400;0,600;0,700;1,700&family=Playfair+Display:ital,wght@1,400;1,500&family=Source+Code+Pro:wght@300&display=swap');
+
+.my-skills {
+  margin-block-start: var(--section-mt);
+  padding: 4rem 1rem;
+}
+
+.my-skills .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.my-skills article {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.my-skills .title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.my-skills ul {
+  margin-block-start: var(--section-mt);
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3.2rem 1rem;
+}
+
+.my-skills li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(160, 100%, 70%);
+  position: relative;
+  font-family: 'Dancing Script', cursive;
+  
+}
+
+.my-skills img {
+  width: 100px; /* Adjust the image size as needed */
+  height: 100px;
+  margin-bottom: 0.5rem;
+  object-fit: contain;
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
+  animation: rotateImage 10s linear infinite; /* Slow rotation animation */
+}
+
+@keyframes rotateImage {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.my-skills li:hover {
+  transform: translateY(-5px);
+  color: #ff7f50;
+}
+
+.my-skills img:hover {
+  transform: scale(1.1) rotate(360deg);
+  animation-duration: 1s;
+}
+
+.my-skills li:hover,
+.my-skills img:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 700px) {
+  .my-skills ul {
+    
+    grid-template-columns: repeat(3, 1fr);
+  
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+  .my-skills ul {
+    
+    grid-template-columns: repeat(2, 1fr);
+  
+  }
+
+}

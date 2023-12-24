@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lora:ital,wght@0,400;0,600;0,700;1,700&family=Playfair+Display:ital,wght@1,400;1,500&family=Source+Code+Pro:wght@300&display=swap');
+
+
+.about-me {
+	margin-block-start: var(--section-mt);
+	padding: var(--section-mt) 1rem;
+}
+
+.about-me .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+
+
+.subtitle, .title
+{
+    text-align: center;
+}
+
+.about {
+	padding-block-start: 1.25rem;
+}
+
+.about p {
+	padding-block-start: 2rem;
+	line-height: 1.8;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+.about-me img {
+    --s: 15px;  /* size of the frame */
+    --b: 2px;   /* border thickness */
+    --w: 200px; /* width of the image */
+    --c: #7B3B3B;
+    
+    width: var(--w);
+    object-fit: cover;
+    padding: calc(2*var(--s));
+    --_g: var(--c) var(--b),#0000 0 calc(100% - var(--b)),var(--c) 0;
+    background:
+      linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+      linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+    transition: .4s;
+    cursor: pointer;
+    
+	
+	width: 350px;
+    height: 400px;
+    border-radius: 20%;
+    
+  }
+  .about-me img:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: calc(var(--s)/-2);
+    --_i: calc(100% - 2*var(--s));
+  }
+  
+
+@media screen and (max-width: 910px) {
+
+    .about-me {
+        margin-block-start: 0rem;
+    }
+
+    .about-me .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        
+    }
+    
+    .about p {
+        padding-block-start: 2rem;
+        line-height: 1.8;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .about-me img
+    {
+        justify-self: center;
+        align-self: center;
+        width: 250px;
+    height: 250px;
+    }
+}

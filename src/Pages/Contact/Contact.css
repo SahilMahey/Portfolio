@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lora:ital,wght@0,400;0,600;0,700;1,700&family=Playfair+Display:ital,wght@1,400;1,500&family=Source+Code+Pro:wght@300&display=swap');
+
+
+.contact {
+	margin-block-start: var(--section-mt);
+	padding: 4rem 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.mail-link {
+	display:flex;
+	margin-block-start: var(--section-mt);
+	width: max-content;
+    justify-content: center;
+    align-items: center;
+	transition: var(--transition-clr);
+	position: relative;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+    
+}
+
+.mail-link-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+}
+.info
+{
+    text-align: center;
+    min-width: 100%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+.mail-link:hover {
+	color: var(--accent-clr);
+	text-decoration: none;
+}

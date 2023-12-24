@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import React,{useState, useEffect} from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './Pages/Home/Home'
+import Navbar from './Pages/Navbar/Navbar'
+import ErrorPage from './Pages/Error/Error'
+import About from './Pages/About/About'
+import Skills from './Pages/Skills/Skills';
+import Project from './Pages/Project/Project';
+import Experience from './Pages/Experience/Experience'
+import Contact from './Pages/Contact/Contact'
 
 function App() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+    
+  const toggleMobileMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+  useEffect(() => {
+    document.body.classList.toggle('open', isMenuOpen);
+  }, [isMenuOpen]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+    <BrowserRouter>
+    <Navbar isMenuOpen = {isMenuOpen} toggleMobileMenu = {toggleMobileMenu}/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="About" element={<About />} />
+        <Route path="Skills" element={<Skills />} />
+        <Route path="Projects" element={<Project />} />
+        <Route path="Experience" element={<Experience />} />
+        <Route path="Contact" element={<Contact />} />
+        <Route path="*" element={<ErrorPage />} />
+      </Routes>
+    </BrowserRouter>
+  
+    </>
   );
 }
 
-export default App;
+export default App; 
