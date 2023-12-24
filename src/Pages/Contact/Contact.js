@@ -2,21 +2,7 @@ import React from 'react'
 import './Contact.css'
 const Contact = () => {
 
-    const copyEmailToClipboard = (email) => {
-    navigator.clipboard.writeText(email)
-    .then(() => {
-      console.log('Email copied to clipboard:', email);
-      
-    })
-    .catch((err) => {
-      console.error('Failed to copy:', err);
     
-    });
-};
-
-const handleGetInTouchClick = (email) => {
-  copyEmailToClipboard(email);
-};
   return (
     <section className="contact" data-aos="fade-up">
 				<div className="container">
@@ -28,7 +14,7 @@ const handleGetInTouchClick = (email) => {
 					</p>
 
 					<div className='mail-link-box'>
-						<a href="mailto:smahey@mun.ca" onClick={() => handleGetInTouchClick('smahey@mun.ca')} className="mail-link hover-effect"
+						<a href="mailto:smahey@mun.ca" className="mail-link hover-effect"
 							>Get in touch →</a
 						>
 					</div>
