@@ -18,7 +18,7 @@ const Experience = () => {
         <div className='work_achievements'>
         <p className='work_achievements_list'>
         Implemented a highly efficient search functionality in a web application, leveraging <span> Remix, TypeScript.js,
-        PostgreSQL, Python and Docker</span> enabling users to seamlessly explore chemistry compounds and filter results based
+        PostgreSQL, Python, Docker and Linux</span> enabling users to seamlessly explore chemistry compounds and filter results based
         on specific properties.
         </p>
         <p className='work_achievements_list'>
