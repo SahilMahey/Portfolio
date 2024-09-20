@@ -3,6 +3,10 @@ import './Experience.css'
 const Experience = () => {
   return (
     <section className='experience_section'>
+       <article data-aos="fade-up">
+          <p className="subtitle">My Experience</p>
+          <h2 className="title">Some Things I have</h2>
+        </article>
         <div className='work_container'>
         <div className='work_info'>
         <div className="work_info_box1">
@@ -28,7 +32,8 @@ const Experience = () => {
         <div className='work_info'>
         <div className="work_info_box1">
         <p className='work_position'>Software Developer</p>
-        <p className='work_location'>MUN</p>
+        <p className='work_location mun'>Memorial University of Newfoundland</p>
+        
         </div>
         <div className="work_info_box2">
         <p className='work_date'>Sep 2023 - Sep 2024</p>
@@ -51,7 +56,7 @@ const Experience = () => {
         <div className='work_info'>
         <div className="work_info_box1"> 
         <p className='work_position'>Software Developer</p>
-        <p className='work_location'>CSIpix</p></div>
+        <p className='work_location'>CSIpix Forensic Software</p></div>
         <div className="work_info_box2">
         <p className='work_date'>Apr 2023 - Aug 2023</p>
         <p className='work_location'>St. John's, NL</p>
@@ -114,7 +119,7 @@ format.
         </p>
          </div>
          </div>
-         <div className='work_container'>
+         <div className='work_container last'>
         <div className='work_info'>
         <div className="work_info_box1">
         <p className='work_position'>Cashier</p>
