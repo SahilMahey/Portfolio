@@ -16,6 +16,50 @@ const Project = () => {
 						<h2 className="title">Some Things I Built</h2>
 					</article>
 					<section className="projects">
+	  					<article className="project">
+							<a
+								href="https://github.com/SahilMahey/Breast-Cancer-MRI-ML-Project-"
+								target="_blank"
+								rel="noreferrer"
+								className="project-img"
+								><img
+									src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftowardsdatascience.com%2Fintroduction-to-machine-learning-for-beginners-eed6024fdb08&psig=AOvVaw3VDNVJZquQTDqFXK-qpCwd&ust=1726931014986000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNCp9sDl0YgDFQAAAAAdAAAAABAE"
+									alt="ML"
+									title="Breast-Cancer-MRI-ML-Project"
+							/></a>
+							<div>
+								<h3>01</h3>
+								<h2>Breast Cancer MRI Machine Learning Project</h2>
+								<p className="description">
+                This machine learning project (currently in progress) focused on classifying breast cancer in MRI images using 
+		CNN and Vision Transformer models. The CNN architecture achieved 76% accuracy on the independent MAMA-MIA validation dataset. It features comprehensive data preprocessing, augmentation techniques, and the use of real-world datasets 
+		such as the Duke Breast Cancer MRI and MAMA-MIA for model training and validation. The Future work includes expanding this project to tumor segmentation using UNet++.
+								</p>
+								<ul className="tech-stack">
+									<li>PyTorch</li>
+									<li>TensorFlow</li>
+									<li>Transformers</li>
+									<li>CNN</li>
+									<li>Pandas</li>
+									<li>Numpy</li>
+									<li>Matplotlib</li>
+									<li>Seaborn</li>
+                  <li>LeetCode</li>
+								</ul>
+								<ul className="project-links">
+									<li>
+										<a
+											href="https://github.com/SahilMahey/Breast-Cancer-MRI-ML-Project-"
+											target="_blank"
+											rel="noreferrer"
+											className="hover-effect"
+											>Github →</a
+										>
+									</li>
+								</ul>
+							</div>
+						</article>
+
 					
 						<article className="project">
 							<a
