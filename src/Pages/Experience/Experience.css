@@ -7,7 +7,7 @@
     flex-direction: column;
     align-items: center;
     margin-block-start: var(--section-mt);
-    gap: 4rem;
+    gap: 2rem;
    
     
 }
@@ -42,7 +42,7 @@
 {
     font-size: 2rem;
     font-weight: 550;
-    margin-top: 5px;
+    /* margin-top: 5px; */
 
     
 }
