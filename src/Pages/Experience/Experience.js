@@ -6,11 +6,32 @@ const Experience = () => {
         <div className='work_container'>
         <div className='work_info'>
         <div className="work_info_box1">
+        <p className='work_position'>Medical Document Specialist</p>
+        <p className='work_location'>SiftMed</p>
+        </div>
+        <div className="work_info_box2">
+        <p className='work_date'>May 2024 - Present</p>
+        <p className='work_location'>St. John's, NL</p>
+
+        </div>
+        </div>
+        <div className='work_achievements'>
+        <p className='work_achievements_list'>
+        Conduct comprehensive <span>data sorting, review, and analysis</span> of both medical and non-medical information, including <span> precise medical data labeling to ensure high accuracy</span>.
+        </p>
+        <p className='work_achievements_list'>
+        Collaborated with team members to optimize document workflows, enhancing productivity, and provided constructive feedback on data quality issues.
+        </p>
+         </div>
+         </div>
+        <div className='work_container'>
+        <div className='work_info'>
+        <div className="work_info_box1">
         <p className='work_position'>Software Developer</p>
         <p className='work_location'>MUN</p>
         </div>
         <div className="work_info_box2">
-        <p className='work_date'>Sep 2023 - Present</p>
+        <p className='work_date'>Sep 2023 - Sep 2024</p>
         <p className='work_location'>St. John's, NL</p>
 
         </div>
