@@ -11,7 +11,7 @@ const About = () => {
 						<h2 className="title">A Bit About Me</h2>
 						<div className="about">
 							<p>
-							I am currently pursuing a Bachelor's in Computer Science (Hons.) with a focus on honing skills in programming and software development. My educational journey at Memorial University has equipped me with a comprehensive understanding of Data Structures, Algorithms, Software Engineering, and more, maintaining a stellar GPA of 3.75/4.0.
+							I have pursued a Bachelor's in Computer Science (Hons.) with a focus on honing skills in programming and software development. My educational journey at Memorial University has equipped me with a comprehensive understanding of Data Structures, Algorithms, Software Engineering, and more, maintaining a stellar GPA of 3.77/4.0.
 							</p>
 							<p>
 							My project portfolio showcases a diverse range of endeavors, from mastering Machine Learning, Data Structures and Algorithms on platforms like LeetCode to leveraging Data Science tools like Pandas, Matplotlib, and Scikit-learn for insightful visualization and predictive modeling. I've delved into web development using React.js, honing front-end skills with HTML5, CSS3, and JavaScript, along with proficiency in various databases like MongoDB, SQL, and Postman API for effective data management.
