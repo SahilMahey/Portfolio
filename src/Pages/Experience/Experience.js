@@ -24,7 +24,7 @@ const Experience = () => {
         Conduct comprehensive <span>data sorting, review, and analysis</span> of both medical and non-medical information, including <span> precise medical data labeling to ensure high accuracy</span>.
         </p>
         <p className='work_achievements_list'>
-        Collaborated with team members to optimize document workflows, enhancing productivity, and provided constructive feedback on data quality issues.
+       Utilized Salesforce to assign tasks to team members, and ensure the platform is updated for efficient work management.
         </p>
          </div>
          </div>
