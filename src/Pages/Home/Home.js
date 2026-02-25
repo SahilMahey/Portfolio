@@ -15,7 +15,7 @@ const Home = () => {
 						</div>
 						<div>
 							<p class="intro">
-							Presently a Software Developer at Memorial University of Newfoundland, overseeing the retrieval of data from a collection exceeding 25 million chemical molecules on retrievium website. Skilled in software development and data science through academic endeavors and diverse internship experiences.
+							I am a software developer with experience building scalable web applications, cloud APIs, automated data pipelines and QA workflows.
 							</p>
 							<div class="hero-btn-container">
 								<a href={Resume} download="Sahil Mahey Resume.pdf" className="btn hire-btn">

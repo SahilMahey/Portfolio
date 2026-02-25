@@ -11,16 +11,13 @@ const About = () => {
 						<h2 className="title">A Bit About Me</h2>
 						<div className="about">
 							<p>
-							I have pursued a Bachelor's in Computer Science (Hons.) with a focus on honing skills in programming and software development. My educational journey at Memorial University has equipped me with a comprehensive understanding of Data Structures, Algorithms, Software Engineering, and more, maintaining a stellar GPA of 3.77/4.0.
+							I am a software developer with a Bachelor’s in Computer Science (Hons.) from Memorial University of Newfoundland, specializing in full-stack development, cloud technologies, and data-driven solutions. My academic foundation includes Data Science, Data Engineering, Data Structures & Algorithms, and Software Engineering, equipping me to design efficient and scalable software solutions.
 							</p>
 							<p>
-							My project portfolio showcases a diverse range of endeavors, from mastering Machine Learning, Data Structures and Algorithms on platforms like LeetCode to leveraging Data Science tools like Pandas, Matplotlib, and Scikit-learn for insightful visualization and predictive modeling. I've delved into web development using React.js, honing front-end skills with HTML5, CSS3, and JavaScript, along with proficiency in various databases like MongoDB, SQL, and Postman API for effective data management.
+								Professionally, I have built and maintained web applications, cloud APIs, and automated data pipelines. At SiftMed, I led QA and automation workflows using TypeScript, AWS, and MySQL, collaborating with AI teams to optimize data processes. As a Software Developer at Memorial University, I implemented full-stack features for large chemical compound datasets, leveraging Remix, TypeScript, Chakra UI, PostgreSQL, and Java.
 							</p>
 							<p>
-							In professional roles, I've contributed significantly as a Software Developer, implementing efficient search functionalities and enhancing user experiences. My tenure as a Software Developer Intern involved integrating C++ code, debugging projects, and collaborating on software enhancement initiatives. Additionally, I've actively participated in business expansion efforts, demonstrating a well-rounded understanding of both technical and business aspects.
-							</p>
-							<p>
-							My commitment to excellence, paired with a drive for continuous learning, propels me to explore innovative solutions and contribute meaningfully to challenging projects. I'm enthusiastic about leveraging my skills and knowledge to tackle real-world problems and contribute positively to future endeavors.
+								My project portfolio demonstrates experience in AI and data science, including MRI breast cancer image classification models and data analytics dashboards. I also have experience integrating C++ modules in forensic software and developing serverless CRUD applications on AWS, showcasing my ability to deliver reliable, high-performance solutions. I am passionate about applying my skills to real-world problems and contributing to innovative, impactful software projects.
 							</p>
 						</div>
 					</article>

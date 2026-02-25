@@ -98,8 +98,9 @@
 
 .description
 {
-	font-family: 'Dancing Script', cursive;
 	font-size: 2rem;
+	font-family:  "Georgia", serif;
+
 }
 
 .project-links a {

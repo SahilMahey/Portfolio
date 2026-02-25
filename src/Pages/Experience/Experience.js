@@ -8,26 +8,62 @@ const Experience = () => {
           <h2 className="title">Some Things I have</h2>
         </article>
         <div className='work_container'>
-        <div className='work_info'>
-        <div className="work_info_box1">
-        <p className='work_position'>Medical Document Specialist</p>
-        <p className='work_location'>SiftMed</p>
+  <div className='work_info'>
+    <div className="work_info_box1">
+      <p className='work_position'>QA Developer</p>
+      <p className='work_location'>SiftMed</p>
+    </div>
+    <div className="work_info_box2">
+      <p className='work_date'>June 2025 - Present</p>
+      <p className='work_location'>St. John's, NL</p>
+    </div>
+  </div>
+  <div className='work_achievements'>
+            <p className='work_achievements_list'>
+              Led end-to-end <span>QA for weekly web application releases</span>, executing manual, automated, exploratory, stress, API, and basic security testing to prevent critical bugs from reaching production.
+            </p>
+            <p className='work_achievements_list'>
+              Built and maintained an automated <span>testing and data validation pipeline</span> using TypeScript, MySQL, and AWS Step Functions to process documents through LLM workflows and generate accuracy metrics.
+            </p>
+            <p className='work_achievements_list'>
+              Developed and maintained <span>end-to-end functional test automation</span> using Playwright, reducing manual release testing time by 33% and increasing test coverage.
+            </p>
+            <p className='work_achievements_list'>
+              Performed QA-focused <span>code reviews</span> to identify logic gaps, edge cases, and data handling issues while actively contributing to product discussions to improve workflow and feature quality.
+            </p>
+            <p className='work_achievements_list'>
+              Triaged and investigated customer-reported issues through Salesforce tickets, verified and prioritized defects based on impact, and partnered with engineering teams to deliver fixes.
+            </p>
+            <p className='work_achievements_list'>
+              Collaborated with pipeline and AI teams to analyze and improve <span>LLM-driven data workflows</span>, identifying annotation inconsistencies and improving data labeling accuracy by 47%.
+            </p>
+          </div>
         </div>
-        <div className="work_info_box2">
-        <p className='work_date'>May 2024 - Present</p>
-        <p className='work_location'>St. John's, NL</p>
+        <div className='work_container'>
+  <div className='work_info'>
+    <div className="work_info_box1">
+      <p className='work_position'>Data Quality Specialist</p>
+      <p className='work_location'>SiftMed</p>
+    </div>
+    <div className="work_info_box2">
+      <p className='work_date'>May 2024 - May 2025</p>
+      <p className='work_location'>St. John's, NL</p>
+    </div>
+  </div>
 
-        </div>
-        </div>
-        <div className='work_achievements'>
-        <p className='work_achievements_list'>
-        Conduct comprehensive <span>data sorting, review, and analysis</span> of both medical and non-medical information, including <span> precise medical data labeling to ensure high accuracy</span>.
-        </p>
-        <p className='work_achievements_list'>
-       Utilized Salesforce to assign tasks to team members, and ensure the platform is updated for efficient work management.
-        </p>
-         </div>
-         </div>
+  <div className='work_achievements'>
+    <p className='work_achievements_list'>
+      Conducted comprehensive <span>validation, sorting, and labeling of sensitive medical and non-medical documents</span> uploaded by customers.
+    </p>
+    <p className='work_achievements_list'>
+      Managed and tracked document workflows through <span>JIRA cases</span>, ensuring accurate documentation and timely updates.
+    </p>
+    <p className='work_achievements_list'>
+      Ensured delivery of processed documents within <span>24-hour Service Level Agreements (SLAs)</span> while maintaining high data quality standards.
+    </p>
+  </div>
+</div>
+
         <div className='work_container'>
         <div className='work_info'>
         <div className="work_info_box1">

@@ -19,7 +19,7 @@ const Project = () => {
         <section className="projects">
           <article className="project">
             <a
-              href="https://github.com/SahilMahey/Breast-Cancer-MRI-ML-Project-"
+              href="https://journals.flvc.org/FLAIRS/article/view/138756"
               target="_blank"
               rel="noreferrer"
               className="project-img"
