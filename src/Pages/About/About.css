@@ -31,7 +31,8 @@
 	line-height: 1.8;
     text-align: center;
     font-family:  "Georgia", serif;
-    font-size: 3rem;
+    font-size: 1.7rem;
+    font-weight: 300;
 }
 
 .about-me img {
@@ -81,7 +82,7 @@
     .about p {
         padding-block-start: 2rem;
         line-height: 1.8;
-        font-size: 2rem;
+        font-size: 1.5;
         text-align: center;
     }
 
