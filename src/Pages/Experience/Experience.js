@@ -7,6 +7,18 @@ const Experience = () => {
           <p className="subtitle">My Experience</p>
           <h2 className="title">Some Things I have</h2>
         </article>
+     <div className='work_container'>
+  <div className='work_info'>
+    <div className="work_info_box1">
+      <p className='work_position'>Sr. Analyst - Software Engineer</p>
+      <p className='work_location'>Nasdaq Verafin</p>
+    </div>
+    <div className="work_info_box2">
+      <p className='work_date'>March 2026 - Present</p>
+      <p className='work_location'>St. John's, NL</p>
+    </div>
+  </div>
+    </div>
         <div className='work_container'>
   <div className='work_info'>
     <div className="work_info_box1">
@@ -14,7 +26,7 @@ const Experience = () => {
       <p className='work_location'>SiftMed</p>
     </div>
     <div className="work_info_box2">
-      <p className='work_date'>June 2025 - Present</p>
+      <p className='work_date'>June 2025 - February 2026</p>
       <p className='work_location'>St. John's, NL</p>
     </div>
   </div>
